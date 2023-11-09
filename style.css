@@ -1,0 +1,65 @@
+body{
+    font-family: "roboto", orbitron, Happymonkey;
+    text-align: center;
+    color:black;
+    
+
+}
+#hero{
+    background-image:url(images/city2.avif);
+    background-size:100%;
+    image-rendering: crisp-edges;
+    padding: 250px 50px;
+    margin: 0 50px 50px;
+    text-shadow:0 0 4px #d8cefe;
+    
+}
+#words{
+    display: inline;
+    margin: 0 ;
+    background: #d8cefe ;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+h3.h4{
+    font-weight: bold;
+}
+
+#secondsection{
+    
+    background-color: #E9EDDF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:50px 50px;
+    padding: 10px;
+    height: 350px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto 40px;
+    padding:20px 25px;
+    width: 630px;
+    text-align: center;
+    color: #2b2839;
+    background-color: #ddebf8; /*
+    border-bottom: 5px solid #d8cefe;*/
+    box-shadow: 3px 5px 4px 3px rgb(222, 217, 217);
+    border-radius: 5px;
+}
+.guide-pics{
+    width: 300px;
+    margin-right: 20px;
+
+}
+.images{
+    border-radius: 10px;
+    box-shadow: 3px 5px 4px 3px  #bcc4aa;
+}
+p{
+    width: 300px;
+    display: block;
+    justify-items: center;
+}
